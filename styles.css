@@ -107,6 +107,60 @@ body {
     white-space: nowrap;
 }
 
+.container {
+    display: flex;
+    position: relative;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 12px;
+    gap: 3rem;
+    bottom: 20rem;
+}
+
+.persona {
+    display: block;
+    width: 40rem;
+    line-height: 1.2;
+}
+
+.stats {
+    display: block;
+    position: relative;
+    width: 40rem;
+}
+
+.stat-name {
+    display: grid;
+    grid-template-columns: repeat(6, 6rem);
+    position: relative;
+    padding: 8px;
+    gap: 15px;
+    right: 1.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.stat-table {
+    display: grid;
+    grid-template-columns: repeat(6, 6rem);
+    position: relative;
+    padding: 8px;
+    gap: 14px;
+    right: 1.3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.hist {
+    display: block;
+    position: relative;
+    bottom: 12.5rem;
+    background-color: purple;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
 @font-face {
     font-family: deltarune;
     src: url(/fonts/PixelOperatorMonoHB8.ttf);
