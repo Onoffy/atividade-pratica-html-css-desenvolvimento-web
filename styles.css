@@ -91,6 +91,7 @@ body {
 .design-image {
     display: flex;
     position: relative;
+    gap: 20px;
     bottom: 31rem;
     left: 39rem;
 }
@@ -101,7 +102,7 @@ body {
     font-size: 14px;
     padding: 15px;
     gap: 30px;
-    right: 39.4rem;
+    right: 39rem;
     top: 30.5rem;
     white-space: nowrap;
 }
