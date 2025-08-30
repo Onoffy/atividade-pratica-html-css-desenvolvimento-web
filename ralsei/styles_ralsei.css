@@ -134,15 +134,15 @@
         left: 80%;
     }
     .design-image {
-        left: 47vw;
+        left: 49vw;
         bottom: 30.5rem;
     }
     .design-image-text {
-        right: 49vw;
-        top: 61vh;
+        right: 50.5vw;
+        top: 74vh;
     }
     .top-header {
         left: 0vw;
-        height: 4.5%;
+        height: 3.5vw;
     }
 }
