@@ -2,7 +2,7 @@
     position: relative;
     top: 2rem;
     padding: 15px;
-    left: 5rem;
+    left: 3rem;
     width: 30rem;
     background-color: rgb(30, 86, 172);
     border-radius: 20px;
@@ -10,9 +10,6 @@
 }
 
 .deltaruneIcon-kris {
-    position: absolute;
-    top: 1.5rem;
-    left: 59rem;
     width: 7rem;
     transition: 0.6s;
 }
@@ -26,7 +23,7 @@
     position: relative;
     gap: 40px;
     bottom: 31rem;
-    left: 40rem;
+    left: 39rem;
 }
 
 .design-image-text {
@@ -123,25 +120,4 @@
 
 .gallery img:hover {
     transform: scale(1.8);
-}
-
-@media screen and (max-width: 1366px) and (max-height: 768px) {
-    .party-link {
-        left: 64vw;
-    }
-    .deltaruneIcon {
-        left: 80%;
-    }
-    .design-image {
-        left: 48vw;
-        bottom: 30.5rem;
-    }
-    .design-image-text {
-        right: 48vw;
-        top: 76vh;
-    }
-    .top-header {
-        left: 0vw;
-        height: 3.5vw;
-    }
 }

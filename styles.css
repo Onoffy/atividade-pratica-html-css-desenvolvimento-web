@@ -6,26 +6,29 @@ body {
     display: flex;
     position: fixed;
     background-color: rgb(64, 157, 238);
-    width: 100vw;
-    height: 5%;
+    width: 100%;
+    height: 2vw;
     top: 0;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
     z-index: 1;
 }
 
+@media (max-height: 900px) {
+    .top-header {
+        height: 2.5vw;
+    }
+}
+
 .deltalogo {
-    position: relative;
-    left: 0.5rem;
-    margin: 2px 2px;
-    padding: 2px 2px;
+    margin-left: 1rem;
 }
 
 .party-link {
     display: flex;
-    position: relative;
-    margin: 5px 0;
     gap: 10px;
-    left: 85rem;
-    padding: 2px 2px;
+    margin-right: 4rem;
 }
 
 .party-link a {
@@ -38,8 +41,8 @@ body {
 
 .castleTown {
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
 }
@@ -60,10 +63,15 @@ body {
     color: white;
 }
 
+.black-container h1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .deltaruneIcon {
-    position: absolute;
-    top: 1.5rem;
-    left: 61rem;
     width: 7rem;
     transition: 0.6s;
 }
@@ -81,7 +89,7 @@ body {
     position: relative;
     top: 2rem;
     padding: 15px;
-    left: 5rem;
+    left: 3rem;
     width: 30rem;
     background-color: purple;
     border-radius: 20px;
@@ -93,7 +101,7 @@ body {
     position: relative;
     gap: 20px;
     bottom: 31rem;
-    left: 39rem;
+    left: 38rem;
 }
 
 .design-image-text {
@@ -197,25 +205,4 @@ body {
 @font-face {
     font-family: deltarune;
     src: url(./fonts/PixelOperatorMonoHB8.ttf);
-}
-
-@media screen and (max-width: 1366px) and (max-height: 768px) {
-    .party-link {
-        left: 64vw;
-    }
-    .deltaruneIcon {
-        left: 80%;
-    }
-    .design-image {
-        left: 47vw;
-        bottom: 30.5rem;
-    }
-    .design-image-text {
-        right: 46.5vw;
-        top: 79vh;
-    }
-    .top-header {
-        left: 0vw;
-        height: 3.5vw;
-    }
 }
