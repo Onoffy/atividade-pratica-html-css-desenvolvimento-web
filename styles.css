@@ -121,6 +121,9 @@ body {
     display: block;
     width: 40rem;
     line-height: 1.2;
+    border-right: 2px;
+    border-right-color: black;
+    border-right-style: solid;
 }
 
 .stats {
