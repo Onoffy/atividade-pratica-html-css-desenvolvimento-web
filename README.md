@@ -1,2 +1,2 @@
-# atividade-pratica-html-css-desenvolvimento-web
+# atv-pratica-html-css-dw
 Atividade prática para a disciplina de desenvolvimento web
